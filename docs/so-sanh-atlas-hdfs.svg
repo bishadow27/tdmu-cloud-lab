@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect width="1200" height="680" fill="#f7f9fc"/>
+<text x="600" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0f172a">SO SÁNH NHÂN BẢN: MONGODB ATLAS VÀ HDFS</text>
+<rect x="40" y="90" width="535" height="500" rx="20" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+<rect x="625" y="90" width="535" height="500" rx="20" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+<text x="307" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#166534">MongoDB Atlas</text>
+<text x="893" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1d4ed8">HDFS</text>
+<text x="307" y="165" text-anchor="middle" font-family="Arial" font-size="16" fill="#475569">Replica set: 3 nút, bản sao dữ liệu DB</text>
+<text x="893" y="165" text-anchor="middle" font-family="Arial" font-size="16" fill="#475569">Replication factor: 3 cho mỗi block</text>
+<rect x="194" y="198" width="226" height="64" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="307" y="225" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#14532d">PRIMARY</text>
+<text x="307" y="248" text-anchor="middle" font-family="Arial" font-size="15" fill="#14532d">Nhận yêu cầu ghi</text>
+<path d="M307 264 L167 344 M307 264 L447 344" stroke="#16a34a" stroke-width="3" fill="none"/>
+<polygon points="167,344 168,330 179,337" fill="#16a34a"/>
+<polygon points="447,344 435,337 446,330" fill="#16a34a"/>
+<rect x="73" y="348" width="193" height="68" rx="13" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<rect x="349" y="348" width="193" height="68" rx="13" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="169" y="376" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold">SECONDARY 1</text>
+<text x="169" y="399" text-anchor="middle" font-family="Arial" font-size="14">Bản sao dữ liệu</text>
+<text x="446" y="376" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold">SECONDARY 2</text>
+<text x="446" y="399" text-anchor="middle" font-family="Arial" font-size="14">Bản sao dữ liệu</text>
+<text x="307" y="464" text-anchor="middle" font-family="Arial" font-size="17" fill="#166534">Primary → Secondary (oplog)</text>
+<text x="307" y="493" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">Một nút lỗi: còn đa số để bầu chọn</text>
+<rect x="789" y="196" width="210" height="58" rx="13" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="894" y="223" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#1e40af">NAMENODE</text>
+<text x="894" y="243" text-anchor="middle" font-family="Arial" font-size="14">Metadata, vị trí block</text>
+<path d="M894 256 L723 341 M894 256 L894 341 M894 256 L1065 341" stroke="#2563eb" stroke-width="3" fill="none"/>
+<polygon points="723,341 725,328 734,336" fill="#2563eb"/>
+<polygon points="894,341 888,329 900,329" fill="#2563eb"/>
+<polygon points="1065,341 1054,337 1062,327" fill="#2563eb"/>
+<rect x="648" y="348" width="152" height="73" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<rect x="818" y="348" width="152" height="73" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<rect x="988" y="348" width="152" height="73" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="724" y="375" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold">DataNode 1</text>
+<text x="724" y="400" text-anchor="middle" font-family="Arial" font-size="16">Block A</text>
+<text x="894" y="375" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold">DataNode 2</text>
+<text x="894" y="400" text-anchor="middle" font-family="Arial" font-size="16">Block A</text>
+<text x="1064" y="375" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold">DataNode 3</text>
+<text x="1064" y="400" text-anchor="middle" font-family="Arial" font-size="16">Block A</text>
+<text x="894" y="464" text-anchor="middle" font-family="Arial" font-size="17" fill="#1d4ed8">Một block được lưu 3 bản sao</text>
+<text x="894" y="493" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">NameNode không phải bản sao của block</text>
+<rect x="44" y="611" width="1112" height="45" rx="10" fill="#e2e8f0"/>
+<text x="600" y="639" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">CÙNG MỤC TIÊU: CHỊU LỖI VÀ DUY TRÌ KHẢ NĂNG TRUY CẬP DỮ LIỆU</text>
+</svg>
